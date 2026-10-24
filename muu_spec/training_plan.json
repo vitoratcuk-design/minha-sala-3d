@@ -1,0 +1,62 @@
+{
+  "name": "Muu Trading Academy",
+  "version": "1.0",
+  "primary_market": "forex",
+  "secondary_market": "crypto_separate",
+  "weekly_target_minutes": 480,
+  "stages": [
+    {
+      "id": 1,
+      "weeks": "1-2",
+      "title": "Diagnóstico e fundamentos avançados",
+      "pass": "Explicar gráfico sem indicadores e quando não operar"
+    },
+    {
+      "id": 2,
+      "weeks": "3-4",
+      "title": "Liquidez e comportamento do preço",
+      "pass": "Critérios objetivos de confirmação e invalidação"
+    },
+    {
+      "id": 3,
+      "weeks": "5-6",
+      "title": "Setup reproduzível",
+      "pass": "Estratégia que outra pessoa consegue reproduzir"
+    },
+    {
+      "id": 4,
+      "weeks": "7-10",
+      "title": "Backtesting e estatística",
+      "minimum_historical_trades": 100,
+      "pass": "Evidência de vantagem após custos"
+    },
+    {
+      "id": 5,
+      "weeks": "11-14",
+      "title": "Forward testing demo",
+      "minimum_demo_trades": 30,
+      "pass": "Disciplina e resultados fora do backtest"
+    },
+    {
+      "id": 6,
+      "weeks": "15-18",
+      "title": "Simulação prop firm",
+      "pass": "Sem violações de risco"
+    },
+    {
+      "id": 7,
+      "weeks": "Após critérios",
+      "title": "Avaliação real e preservação",
+      "pass": "Cumprir contrato, gerir risco e registrar pagamentos"
+    }
+  ],
+  "first_session": {
+    "date": "2026-10-21",
+    "time": "10:00",
+    "topic": "Diagnóstico EUR/USD",
+    "timezone": "Europe/London",
+    "note": "Agenda declarada no plano original; este pacote não cria nem verifica lembrete."
+  },
+  "starting_setup": "pullback após rompimento estrutural confirmado",
+  "risk_limits": "A definir com o usuário; respeitar limites específicos da firma"
+}

@@ -1,0 +1,50 @@
+{
+  "version": "1.0",
+  "profile": {
+    "preferred_language": "string",
+    "training_goal": "string",
+    "risk_per_trade_pct": "number|null",
+    "daily_loss_limit_pct": "number|null"
+  },
+  "training": {
+    "stage_id": "integer|null",
+    "completed_lessons": "array",
+    "assessments": "array",
+    "minutes_by_date": "object",
+    "next_session": "object|null"
+  },
+  "journals": {
+    "forex": {
+      "historical": "array<trade>",
+      "demo": "array<trade>",
+      "live": "array<trade>"
+    },
+    "crypto": {
+      "historical": "array<trade>",
+      "demo": "array<trade>",
+      "live": "array<trade>"
+    }
+  },
+  "trade_fields": {
+    "id": "string",
+    "date": "ISO date",
+    "instrument": "string",
+    "direction": "long|short",
+    "entry": "number",
+    "stop": "number",
+    "target": "number|null",
+    "exit": "number|null",
+    "size": "number|null",
+    "risk_cash": "number|null",
+    "fees": "number|null",
+    "result_r": "number|null",
+    "setup": "string",
+    "rationale": "string",
+    "screenshots": "array<string>",
+    "confirmed_by_user": "boolean"
+  },
+  "privacy": {
+    "export_supported": "boolean",
+    "delete_supported": "boolean"
+  }
+}

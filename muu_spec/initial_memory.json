@@ -1,0 +1,38 @@
+{
+  "profile": {
+    "preferred_language": "pt-BR",
+    "training_goal": "Preparar-se para prop firm e só considerar transição do roofing após consistência e segurança financeira",
+    "risk_per_trade_pct": null,
+    "daily_loss_limit_pct": null
+  },
+  "training": {
+    "stage_id": 1,
+    "stage_status": "planejado; diagnóstico ainda não registrado",
+    "completed_lessons": [],
+    "assessments": [],
+    "minutes_by_date": {},
+    "next_session": {
+      "date": "2026-10-21",
+      "time": "10:00",
+      "timezone": "Europe/London",
+      "topic": "Diagnóstico técnico EUR/USD",
+      "status": "informado pelo usuário; não verificado"
+    }
+  },
+  "journals": {
+    "forex": {
+      "historical": [],
+      "demo": [],
+      "live": []
+    },
+    "crypto": {
+      "historical": [],
+      "demo": [],
+      "live": []
+    }
+  },
+  "privacy": {
+    "export_supported": true,
+    "delete_supported": true
+  }
+}
